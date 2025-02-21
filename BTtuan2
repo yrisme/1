@@ -5,7 +5,7 @@ using namespace std;
 
 #define KICH_THUOC 5
 
-//Loại bỏ khoảng trắng và thay J bằng I
+//Loại bỏ khoảng trắng và thay J = I
 string xuLyVanBan(string vanBan) {
     string ketQua = "";
     for (char c : vanBan) {
